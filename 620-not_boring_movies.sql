@@ -23,5 +23,5 @@
 -- +---------+-----------+--------------+-----------+
 
 SELECT * FROM cinema 
-    WHERE Mod(id,2 )<> 0 and NOT description = "boring" 
+    WHERE Mod(id, 2)<> 0 and NOT description = "boring" 
     ORDER BY rating DESC;
