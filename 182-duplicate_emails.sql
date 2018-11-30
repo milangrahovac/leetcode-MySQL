@@ -20,3 +20,8 @@
 
 -- Note: All emails are in lowercase.
 
+
+SELECT Email 
+FROM Person
+GROUP BY Email
+HAVING count(*) > 1;
