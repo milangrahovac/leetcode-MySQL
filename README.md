@@ -1,2 +1,1 @@
 # leetcode-MySQL
-# learning MySQL
